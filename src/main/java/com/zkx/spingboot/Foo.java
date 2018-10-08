@@ -14,6 +14,7 @@ public class Foo {
         System.out.println(context.getBean(Car.class));
         System.out.println(context.getBean(Dog.class));
         System.out.println(context.getBean(Cat.class));
+        System.out.println("==============asdjlisadlo===============");
         context.close();
     }
 }

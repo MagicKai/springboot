@@ -7,11 +7,11 @@ public class Cat {
 
     @PostConstruct
     public void initial(){
-        System.out.println("cat-init");
+        System.out.println("====cat-init====");
     }
 
     @PreDestroy
     public void destroy(){
-        System.out.println("cat-destroy");
+        System.out.println("====cat-destroy====");
     }
 }

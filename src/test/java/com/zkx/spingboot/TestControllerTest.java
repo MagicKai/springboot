@@ -19,8 +19,4 @@ public class TestControllerTest {
     public void testZx() {
         System.out.println(homeController.hello());
     }
-
-    public void jj(){
-
-    }
 }

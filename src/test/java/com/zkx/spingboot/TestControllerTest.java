@@ -16,7 +16,11 @@ public class TestControllerTest {
     private HomeController homeController;
 
     @Test
-    public void testZkx() {
+    public void testZx() {
         System.out.println(homeController.hello());
+    }
+
+    public void jj(){
+
     }
 }

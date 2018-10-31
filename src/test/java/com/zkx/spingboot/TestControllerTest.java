@@ -18,6 +18,5 @@ public class TestControllerTest {
     @Test
     public void testZkx() {
         System.out.println(homeController.hello());
-        System.out.println("123");
     }
 }

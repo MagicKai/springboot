@@ -1,4 +1,4 @@
-package com.zkx.spingboot;
+package com.zkx.springboot;
 
 public class Dog {
     public void init(){

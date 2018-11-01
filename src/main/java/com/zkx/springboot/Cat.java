@@ -1,4 +1,4 @@
-package com.zkx.spingboot;
+package com.zkx.springboot;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;

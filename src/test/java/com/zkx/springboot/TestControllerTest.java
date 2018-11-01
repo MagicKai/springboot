@@ -1,7 +1,7 @@
-package com.zkx.spingboot;
+package com.zkx.springboot;
 
 
-import com.zkx.spingboot.controller.HomeController;
+import com.zkx.springboot.controller.HomeController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,9 +18,5 @@ public class TestControllerTest {
     @Test
     public void testZx() {
         System.out.println(homeController.hello());
-    }
-
-    public void jj(){
-
     }
 }

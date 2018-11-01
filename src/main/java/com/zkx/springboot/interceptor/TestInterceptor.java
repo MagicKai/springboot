@@ -1,4 +1,4 @@
-package com.zkx.spingboot.interceptor;
+package com.zkx.springboot.interceptor;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -6,6 +6,9 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * @author zkx
+ */
 @Component
 public class TestInterceptor implements HandlerInterceptor {
 

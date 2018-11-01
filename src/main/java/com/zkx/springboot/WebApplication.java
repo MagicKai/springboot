@@ -1,9 +1,11 @@
-package com.zkx.spingboot;
+package com.zkx.springboot;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@MapperScan("com.zkx.springboot.dao")
 public class WebApplication {
     public static void main(String[] args) {
         SpringApplication.run(WebApplication.class);

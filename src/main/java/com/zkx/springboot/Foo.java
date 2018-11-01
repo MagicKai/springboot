@@ -1,9 +1,4 @@
-package com.zkx.spingboot;
-
-import com.sun.deploy.util.ArrayUtil;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import java.util.Arrays;
+package com.zkx.springboot;
 
 public class Foo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.zkx.spingboot;
+package com.zkx.springboot;
 
 public class CarFactory {
     public Car create(){

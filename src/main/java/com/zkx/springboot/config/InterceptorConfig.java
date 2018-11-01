@@ -1,6 +1,6 @@
-package com.zkx.spingboot.config;
+package com.zkx.springboot.config;
 
-import com.zkx.spingboot.interceptor.TestInterceptor;
+import com.zkx.springboot.interceptor.TestInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
